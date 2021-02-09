@@ -75,6 +75,10 @@ jobs:
     steps:
       - checkout
       - run:
+          name: use npm7
+          command: |
+            npm i -g npm@latest
+      - run:
           name: everything
           command: |
             make clean && make ci
