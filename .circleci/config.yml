@@ -77,7 +77,7 @@ jobs:
       - run:
           name: use npm7
           command: |
-            npm i -g npm@latest
+            npm -v
       - run:
           name: everything
           command: |
