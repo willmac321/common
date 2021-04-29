@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
+* Added a feature with an empty scenario in order to validate a common
+  behavior accross the implementations
+  ([1498](https://github.com/cucumber/cucumber/pull/1498)
+  [249](https://github.com/cucumber/cucumber/issues/249))
+
 ### Changed
 
 ### Deprecated
