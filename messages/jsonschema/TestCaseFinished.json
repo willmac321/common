@@ -14,6 +14,12 @@
       "$ref": "./Timestamp.json",
       "additionalProperties": false,
       "type": "object"
+    },
+    "testSteps": {
+      "items": {
+        "$ref": "./TestCase.json#definitions/TestStep"
+      },
+      "type": "array"
     }
   },
   "type": "object"
