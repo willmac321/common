@@ -3,8 +3,7 @@
   "additionalProperties": false,
   "required": [
     "testCaseStartedId",
-    "timestamp",
-    "testSteps"
+    "timestamp"
   ],
   "properties": {
     "testCaseStartedId": {
@@ -14,12 +13,6 @@
       "$ref": "./Timestamp.json",
       "additionalProperties": false,
       "type": "object"
-    },
-    "testSteps": {
-      "items": {
-        "$ref": "./TestCase.json#definitions/TestStep"
-      },
-      "type": "array"
     }
   },
   "type": "object"
